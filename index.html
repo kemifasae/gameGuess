@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Test Page</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<h1> Number Guessing Game </h1>
+	<h2> Welcome </h2>
+	<p> We have selected a random number between 1 and 100. See if you can guess</br>
+	it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+	
+	<label for = "guessField"> Enter a guess: </label> <input type="text" id="guessField" class="guessField">
+	<input type="submit" value="Submit guess" class="guessSubmit">
+	
+	<p class="guesses"></p>
+	<p class="lastResult"></p>
+	<p class="lowOrHi"></p>
+	
+	<script src="scripts/main.js"></script>
+</body>
+</html>
